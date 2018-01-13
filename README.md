@@ -6,3 +6,6 @@
 
 ## 博客目录
 [iOS真机开发包](https://github.com/RPGLiker/StudyBlog/tree/master/%E5%8D%9A%E5%AE%A2/iOS%E7%9C%9F%E6%9C%BA%E5%BC%80%E5%8F%91%E5%8C%85)
+
+### 音视频开发
+[ffmpeg常用的命令行](https://github.com/RPGLiker/StudyBlog/blob/master/%E5%8D%9A%E5%AE%A2/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%BC%80%E5%8F%91/ffmpeg%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C.md)
