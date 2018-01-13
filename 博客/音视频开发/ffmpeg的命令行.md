@@ -5,6 +5,7 @@
 
 ## ffprobe
 - 查看媒体文件信息
+
 		ffprobe 文件
 		
 我们先来查看一个`音频`文件
@@ -41,4 +42,40 @@
 		
 		ffprobe -show_packets 文件路径
 		
+- ffplay命令行
+
+播放音视频文件
+
+		ffplay 文件路径
+
+可以利用键盘方向键操作,w是绘制波形,按s键则进入frame-step模式,按一次就会展示下一帧图像
+
+循环播放
+
+		ffplay 文件路径 -loop 循环次数
 		
+播放指定流
+
+		音频
+		ffplay 文件路径 -ast 流数字
+		//视频
+		ffplay 文件路径 -vst 流数字
+		
+播放裸数据
+
+		音频
+		ffplay 原始文件(pcm文件) -f 格式 -channels 声道数 -ar 采样率
+		//视频
+		ffplay 原始格式(例如-f rawvideo) 格式(例如-pixel_format yuv420p) 宽高(例如-s 480*480) 原始文件(yuv)
+		//RGB
+		ffplay -f rawvideo -pixel_format rgb24 -s 480*480 texture.rgb
+	
+上面的参数必须设置正确否则无法播放
+	
+ffplay对齐方式(音画同步)的设置
+
+		ffpaly 文件路径 -sync audio //以音频为基准
+		ffpaly 文件路径 -sync video //视频
+		ffpaly 文件路径 -sync ext   //外部时钟
+		
+		 
