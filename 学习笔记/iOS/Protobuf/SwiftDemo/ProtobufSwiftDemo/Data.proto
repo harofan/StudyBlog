@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Mp3Message {
+    bytes mp3Data = 1;
+}

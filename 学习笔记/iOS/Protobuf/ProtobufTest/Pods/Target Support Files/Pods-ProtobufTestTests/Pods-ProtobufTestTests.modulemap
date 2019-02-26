@@ -1,0 +1,6 @@
+module Pods_ProtobufTestTests {
+  umbrella header "Pods-ProtobufTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

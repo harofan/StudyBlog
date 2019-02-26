@@ -1,0 +1,6 @@
+module SwiftProtobuf {
+  umbrella header "SwiftProtobuf-library-umbrella.h"
+
+  export *
+  module * { export * }
+}

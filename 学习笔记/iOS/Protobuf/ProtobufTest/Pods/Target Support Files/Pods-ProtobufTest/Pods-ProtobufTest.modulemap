@@ -1,0 +1,6 @@
+framework module Pods_ProtobufTest {
+  umbrella header "Pods-ProtobufTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
