@@ -20,5 +20,7 @@
 
 [iOS的一点架构分享](https://github.com/Link913/StudyBlog/blob/master/%E5%8D%9A%E5%AE%A2/iOS/6.iOS%E7%9A%84%E4%B8%80%E7%82%B9%E6%9E%B6%E6%9E%84%E5%88%86%E4%BA%AB.md)
 
+[如何快速上手iOS开发](https://github.com/Link913/StudyBlog/blob/master/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/iOS/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8iOS.md)
+
 ### 音视频开发
 [ffmpeg常用的命令行](https://github.com/Link913/StudyBlog/blob/master/%E5%8D%9A%E5%AE%A2/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%BC%80%E5%8F%91/ffmpeg%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C.md)
